@@ -1,0 +1,14 @@
+.nav {
+  width: 23vw;
+  margin: auto;
+  background-color:rgb(204,200,200);
+  font-family:'Times New Roman', Times, serif;
+  font-size:large;
+  box-shadow: 0 0 2px 3px rgb(204,200,200);
+  border-radius: 10px;
+}
+.nav h1 {
+  text-shadow: 2px 2px #DADADA ;
+  color:rgb(88, 39, 39);
+  text-align: center;
+}

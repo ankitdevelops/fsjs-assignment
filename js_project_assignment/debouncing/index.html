@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Debouncing Example</title>
+  </head>
+  <body>
+    <input type="text" id="search-input" placeholder="Search..." />
+    <div id="search-results"></div>
+
+    <script>
+      // Function to be debounced
+      function search(query) {
+        // Simulating an asynchronous API call
+        setTimeout(() => {
+          const results = `Showing results for '${query}'`;
+          document.getElementById("search-results").textContent = results;
+        }, 500); // Delay of 500ms
+      }
+
+      // Debouncing function
+      function debounce(func, delay) {
+        let timerId;
+        return function () {
+          const context = this;
+          const args = arguments;
+
+          clearTimeout(timerId);
+
+          timerId = setTimeout(() => {
+            func.apply(context, args);
+          }, delay);
+        };
+      }
+
+      // Getting input element and applying debouncing to search function
+      const searchInput = document.getElementById("search-input");
+      const debouncedSearch = debounce(search, 300); // Delay of 300ms
+
+      // Event listener with debounced function
+      searchInput.addEventListener("input", function (event) {
+        const query = event.target.value;
+        debouncedSearch(query);
+      });
+    </script>
+  </body>
+</html>
