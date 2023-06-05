@@ -36,7 +36,7 @@
 
 
 ### Create a simple Music player using html only
-- Add github link here
+- https://github.com/ankitdevelops/fsjs-assignment/blob/main/html/music_player
 
 
 ### What is the difference between `<figure>` tag and `<img>` tag?
@@ -380,7 +380,7 @@ dataPromise
 
 ### Explain Debouncing and Create a project where you are using Debouncing
 - Debouncing is a technique used  to control the frequency at which a particular event, typically user input, triggers an action or function. It helps prevent excessive or unnecessary function calls, particularly when the event is fired  repeatedly. debouncing involves adding a delay before performing an action in response to an event. When the event is triggered, a timer is set, and if the event is fired again within the specified delay, the timer is reset. The action is executed only when the delay period has passed without any subsequent event firing.
-- Link to the debounce project
+- https://github.com/ankitdevelops/fsjs-assignment/tree/main/js_project_assignment/debouncing
 
 ### Explain Closures and Use cases of Closures
 
@@ -407,7 +407,7 @@ myFunction("Hello Mr."); //output: Hello Mr.John
   - User can also add new blog
   - Add Delete functionality also
 
-- Link to the project
+- https://github.com/ankitdevelops/fsjs-assignment/tree/main/js_project_assignment/blog_app
 
 
 ## React Questions
@@ -465,7 +465,7 @@ myFunction("Hello Mr."); //output: Hello Mr.John
 
 ###  Explain Context Api and create a minor project on it
 - The Context API is a feature of React that provides a way to share data and state between components without the need for prop drilling (passing props through multiple levels of components). It allows you to create a global state that can be accessed by any component within a React application.
-- Project Link
+- https://github.com/ankitdevelops/fsjs-assignment/tree/main/react_assignment_projects/contextapi-dashboard
 
 ###  Explain useReducer and Its advantages ?
 - useReducer is a React Hook that lets you add a reducer to your component.
@@ -473,10 +473,14 @@ myFunction("Hello Mr."); //output: Hello Mr.John
 -  It is used to manage state in a more complex and predictable manner than the useState hook.
 
 ### build a Todo Web App Using React and useReducer Hook ?
-- link
+- https://github.com/ankitdevelops/fsjs-assignment/tree/main/react_assignment_projects/todoapp
 
 ### Build A simple counter app using React 
-- link
+- https://github.com/ankitdevelops/fsjs-assignment/tree/main/react_assignment_projects/counter
+
+
+### Build Calculator Using React Only
+- https://github.com/ankitdevelops/fsjs-assignment/tree/main/react_assignment_projects/calculator-project
 
 ### Build a Tic Tac Toe Game using Class Component of React 
 - link
@@ -490,13 +494,13 @@ myFunction("Hello Mr."); //output: Hello Mr.John
 
 ### Create a task manager where user can create tasks and see his task
 
+- https://github.com/ankitdevelops/fsjs-assignment/tree/main/react_assignment_projects/task-manager
 
 ## Express Question →
 
 ### Create a simple server using Express and connect with backend and create an endpoint “/post” which sends 20 posts
 
-- link
-
+- https://github.com/ankitdevelops/fsjs-assignment/tree/main/express-blog-app
 ###  Explain a middleware and create a middleware that checks is user authenticated or not then send data of post
 
 - Middleware functions have access to the request object and the response object and also the next function in the application request-response lifecycle.
@@ -506,8 +510,17 @@ myFunction("Hello Mr."); //output: Hello Mr.John
   - End the request-response cycle.
   - Call the next middleware in the stack.
   
-- link
+- https://github.com/ankitdevelops/fsjs-assignment/tree/main/express-blog-app
 
+
+### Create a backend for blog app, where user can perform crud operations (10 Marks)
+  - Add blog
+  - Delete blog
+  - Update blog
+  - Replace blog
+
+- https://github.com/ankitdevelops/fsjs-assignment/tree/main/express-blog-app
+- 
 ### What is the difference between authentication and authorization?
 
 - Authentication and authorization are two important concepts in information security. Authentication is the process of verifying the identity of a user or service, while authorization is the process of determining what resources a user or service is allowed to access.
@@ -536,6 +549,7 @@ export { someValue };
 
 - JWT stands for JSON Web Token. It is an open standard for securely transmitting information between parties as a JSON object. JWTs are commonly used for authentication and authorization purposes in web applications.
 - A JWT consists of three parts: a header, a payload, and a signature. The header contains information about the token, such as the algorithm used to sign it. The payload contains the claims or statements about the user or entity, such as the user's ID or roles. The signature is used to verify the authenticity of the token.
+- https://github.com/ankitdevelops/fsjs-assignment/tree/main/express-blog-app
 
 ### What should we do with the password of a user before storing it into DB?
 
