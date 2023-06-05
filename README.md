@@ -561,3 +561,7 @@ export { someValue };
 - The event loop is a single-threaded loop that runs continuously in the Node.js runtime. It is responsible for processing all events that occur in the application, such as I/O events, timer events, and user events.
 - The event loop works by first checking the event queue to see if any events are waiting to be processed. If there are no events, the event loop will sleep until an event is added to the queue. When an event is added to the queue, the event loop will wake up and process the event.
 - The event loop will then check the call stack to see if there are any functions that are currently executing. If there are no functions executing, the event loop will call the next function in the call stack. If there are functions executing, the event loop will return to the top of the loop and wait for another event to be added to the queue.
+
+
+### Create a Full Stack Ecommerce website with all major functionalities.
+ - https://github.com/ankitdevelops/proshop
