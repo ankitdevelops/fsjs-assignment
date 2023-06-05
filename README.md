@@ -21,10 +21,10 @@
 
 
 ### Build Your Resume using HTML only
-- Add github link here
+- https://github.com/ankitdevelops/fsjs-assignment/blob/main/html/resume.html
 
 ### Write Html code so that it looks like the given image
-- Image Link not working
+- https://github.com/ankitdevelops/fsjs-assignment/tree/main/html/Question_5
 
 ### What are some of the advantages of HTML5 over its previous versions?
 
@@ -66,7 +66,7 @@
   
 ### build Table which looks like the given image Link 
 
-- image link not working.
+- https://github.com/ankitdevelops/fsjs-assignment/blob/main/html/table.html
 
 
 ## CSS Questions
@@ -136,18 +136,18 @@
 - Pseudo-classes are special keywords that can be used to select elements based on their state or condition. For example, the pseudo-class :hover can be used to select an element when the user's mouse pointer hovers over it. Pseudo-elements, on the other hand, are special keywords that can be used to add content to an element. For example, the pseudo-element::after can be used to add content after an element.
 
 ###  Build Periodic Table as shown in the below image
-- haven't made till now
+- https://github.com/ankitdevelops/fsjs-assignment/tree/main/css/Preodictable
 
 ### Build given layout using grid or flex see below image for reference .
-- haven't made till now
+- https://github.com/ankitdevelops/fsjs-assignment/blob/main/css/q9-layout.html
 
 ###  Build Responsive Layout both desktop and mobile and Tablet, see below image for reference ?
 
-- haven't made till now
+- https://github.com/ankitdevelops/fsjs-assignment/blob/main/css/q10-layout.html
 
 ###  Build Complete Homepage of Ineuron ( Link ) with responsiveness.
 
-- haven't made till now
+- https://github.com/ankitdevelops/fsjs-assignment/tree/main/css/ineuronclone
 
 ## JavaScript Questions
 
