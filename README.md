@@ -304,8 +304,8 @@ setTimeout(() => console.log('Third'), 0);
 console.log('Third');
 ```
 
-[](./Untitled-2023-06-10-1724.png)
-[](./Untitled-2023-06-10-1724%20(1).png)
+![](./Untitled-2023-06-10-1724.png)
+![](./Untitled-2023-06-10-1724%20(1).png)
 
 ### What are promises? What are the different states of a promise? Support your answer with an example where you need to create your own promise.
 - Promises are objects used in JavaScript to handle asynchronous operations. They represent the eventual completion or failure of an asynchronous operation and allow us to write asynchronous code in a more structured and readable manner.
